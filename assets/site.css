@@ -428,3 +428,7 @@ body.review .review-note{display:block;position:fixed;left:max(16px,env(safe-are
   .review-toggle{padding:8px 11px;font-size:.78rem;opacity:.92}
   .review-toggle svg{width:16px;height:16px}
 }
+@media (max-width:860px){
+  .review-toggle{position:static;display:flex;width:100%;justify-content:center;border-radius:0;border-width:0 0 1px;box-shadow:none;padding:9px 16px;font-size:.82rem;opacity:1}
+  body.review .review-note{position:static;max-width:none;border-radius:0;border-width:0 0 1px;box-shadow:none}
+}

@@ -132,10 +132,15 @@ def header(cur):
         f'<a class="d-link" href="{href("our-work")}">Our work</a>'
         f'<a class="d-link" href="{href("about")}">About</a>'
         f'<a class="d-link" href="{href("contact")}">Contact</a>')
+    review = ""
+    if SITE.get("reviewMode"):
+        review = f'''<button class="review-toggle" type="button" aria-pressed="false">{ic('eye')}Owner review</button>
+<div class="review-note" role="status">Dashed outlines mark details Team ASAP needs to confirm before launch. Hover or tap one to see the note.</div>'''
     e247 = SITE.get("emergency247")
     util_left = (f'<span{v(SITE["trust"][3])}><span class="pulse" aria-hidden="true"></span>24/7 emergency plumbing</span>'
                  if e247 else '<span>Plumbing & home improvement</span>')
     return f'''<a class="skip" href="#main">Skip to content</a>
+{review}
 <div class="util"><div class="wrap">{util_left}<span class="hide-sm">New Rochelle &amp; Westchester County</span><a href="{TEL}" data-track="call_click" data-loc="util"{VP}>{PHONE}</a></div></div>
 <header class="hdr"><div class="wrap">
 <a class="logo" href="{href('')}" aria-label="Team ASAP Home Improvement, home"><img src="{asset('brand/logo-horizontal.png')}" alt="Team ASAP Home Improvement" width="640" height="142"></a>
@@ -157,10 +162,6 @@ def footer():
     plumbing = "".join(f'<li><a href="{href(s)}">{e(SVC[s]["nav"])}</a></li>' for s in ["plumbing"] + PLUMB_SUB)
     credit = SITE.get("credit", {})
     cr = (f'<a href="{e(credit["url"])}">{e(credit["name"])}</a>' if credit.get("url") else e(credit.get("name", "")))
-    review = ""
-    if SITE.get("reviewMode"):
-        review = f'''<button class="review-toggle" type="button" aria-pressed="false">{ic('eye')}Owner review</button>
-<div class="review-note" role="status">Dashed outlines mark details Team ASAP needs to confirm before launch. Hover or tap one to see the note.</div>'''
     return f'''</main>
 <footer class="ftr"><div class="wrap">
 <div class="ftr-grid">
@@ -172,7 +173,6 @@ def footer():
 <div class="ftr-bottom"><span>&copy; {YEAR} {e(SITE['legalName'])}. All rights reserved.</span><span>Website by {cr}</span></div>
 </div></footer>
 <div class="mbar"><a class="btn ghost" href="{TEL}" data-track="call_click" data-loc="mobile-bar">{ic('phone')}Call</a><a class="btn" href="{href('contact')}" data-track="quote_cta" data-loc="mobile-bar">{quote_label}</a></div>
-{review}
 ''' + ("" if PREVIEW and False else "")
 
 def close_doc(slug):
@@ -216,7 +216,7 @@ def trust_strip():
     for t in SITE["trust"]:
         val = e(t["value"])
         if t["label"].lower().startswith("google rating"):
-            val += ' <small aria-hidden="true">★</small>'
+            val += ' <small aria-hidden="true">&#9733;</small>'
         lis.append(f'<li><span class="fit"{v(t)}><span class="v">{val}</span></span><span class="l">{e(t["label"])}</span></li>')
     return f'<section class="pipe-run" aria-label="Why homeowners choose Team ASAP"><div class="wrap"><ul>{"".join(lis)}</ul></div></section>'
 
