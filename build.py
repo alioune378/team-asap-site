@@ -86,7 +86,7 @@ quote_label = "Get a Free Quote" if SITE.get("freeEstimates") else "Request a Qu
 
 def head(title, desc, slug, extra_ld=None, og_img=None):
     ld = [json.dumps(x, ensure_ascii=False) for x in (extra_ld or [])]
-    og = SITE["siteUrl"].rstrip("/") + "/assets/" + (og_img or "brand/og-image.jpg")
+    og = SITE["siteUrl"].rstrip("/") + "/assets/" + (og_img or "brand/og-image-v2.jpg")
     ga = SITE["analytics"].get("ga4Id", "")
     doc_open = "" if (PREVIEW and slug == "index") else '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
     return f'''{doc_open}<title>{e(title)}</title>
@@ -99,6 +99,8 @@ def head(title, desc, slug, extra_ld=None, og_img=None):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{canon(slug)}">
 <meta property="og:image" content="{og}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#071F39">
 <link rel="icon" href="{asset('brand/icon_32px.png')}" sizes="32x32">
