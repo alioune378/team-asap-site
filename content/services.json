@@ -1,0 +1,358 @@
+{
+  "_readme": "Service page content. Keep claims factual: no prices, guarantees, arrival times, licenses or insurance statements unless the owner confirms them.",
+  "pages": [
+    {
+      "slug": "plumbing",
+      "group": "plumbing",
+      "hub": true,
+      "nav": "Plumbing",
+      "metaTitle": "Plumber in New Rochelle, NY | Plumbing Repairs & Installations | Team ASAP",
+      "metaDescription": "Plumbing repairs, leak and pipe work, drains, water heaters and fixture installations for homes in New Rochelle and nearby Westchester communities. Call Team ASAP.",
+      "eyebrow": "Residential plumbing",
+      "h1": "Plumbing repairs and installations for New Rochelle homes",
+      "intro": "Most plumbing calls start with something small: a drip under the sink, a toilet that keeps running, a water heater that takes longer to warm up. Team ASAP finds the cause, explains what we see in plain terms, and fixes it with care for your home.",
+      "image": "illus-under-sink",
+      "illustration": true,
+      "imageAlt": "Plumber tightening a PVC drain trap under a kitchen sink",
+      "quoteKey": "repair",
+      "signs": [
+        "Dripping faucets or a toilet that runs between flushes",
+        "Slow drains or water backing up into a tub or sink",
+        "Low water pressure at one or more fixtures",
+        "Stains on ceilings or walls below a bathroom",
+        "Hot water that runs out quickly or never gets hot",
+        "Noisy pipes, banging or whistling when water turns on"
+      ],
+      "approach": [
+        ["Tell us what's happening", "Call, or send a quote request with a short description and a few photos."],
+        ["We find the cause", "We look at the problem in person and explain what's causing it."],
+        ["You choose the fix", "We walk you through the options before any work begins."],
+        ["Work done with care", "We protect the work area and leave it clean when we're done."]
+      ],
+      "includes": [
+        "General plumbing repairs",
+        "Faucet repair and replacement",
+        "Toilet repair and replacement",
+        "Shower and bathtub plumbing",
+        "Garbage disposal installation and repair",
+        "Outdoor faucets and exterior piping",
+        "Leak detection and pipe repair",
+        "Drain and sewer line service",
+        "Water heater repair and replacement"
+      ],
+      "faq": [
+        ["Should I turn off my water if I see a leak?", "Yes. If water is actively leaking, close the shut-off valve for that fixture, or the main shut-off if you can't isolate it. Then call us. Knowing where your main shut-off is before you need it saves time and water damage."],
+        ["Can I send photos before you come out?", "Yes. The quote form lets you attach photos of the problem. Photos help us understand the job and bring the right parts."],
+        ["Do you handle both repairs and new installations?", "Yes. We fix existing plumbing and install new fixtures, from a single faucet to the plumbing for a full bathroom renovation."]
+      ],
+      "local": "New Rochelle has a wide mix of housing, from older single-family homes with original galvanized or cast-iron piping to newer condos and renovated multifamily buildings. Older systems often need a different approach than newer ones, so we look at what's actually behind the wall before recommending a fix.",
+      "related": ["leak-detection-pipe-repair", "drain-sewer", "water-heaters", "fixtures-installation"]
+    },
+    {
+      "slug": "leak-detection-pipe-repair",
+      "group": "plumbing",
+      "nav": "Leak detection & pipe repair",
+      "metaTitle": "Leak Detection & Pipe Repair in New Rochelle, NY | Team ASAP",
+      "metaDescription": "Hidden leaks, damaged or corroded pipes, and pipe replacement for homes in New Rochelle and Westchester. Request a quote or call Team ASAP.",
+      "eyebrow": "Leaks & pipes",
+      "h1": "Leak detection and pipe repair",
+      "intro": "A small leak inside a wall or under a floor can do a lot of damage before anyone sees it. We track down where the water is coming from, repair or replace the damaged section of pipe, and help you avoid the same problem next season.",
+      "image": "illus-outdoor-piping",
+      "illustration": true,
+      "imageAlt": "Plumber working on copper and brass water piping on the outside of a house",
+      "quoteKey": "repair",
+      "signs": [
+        "A water bill that's higher than usual with no change in use",
+        "Damp spots, bubbling paint or stains on walls and ceilings",
+        "The sound of running water when every fixture is off",
+        "A musty smell in a bathroom, cabinet or basement",
+        "Green or white crust on visible pipe joints",
+        "Pipes that froze or were exposed to freezing temperatures"
+      ],
+      "approach": [
+        ["Locate the source", "We check fixtures, visible piping and the areas around the damage to find where water is escaping."],
+        ["Explain the options", "Some leaks need a simple repair. Others point to piping that should be replaced. We'll show you which and why."],
+        ["Repair the pipe", "We repair or replace the affected section and test it under pressure."],
+        ["Check for related issues", "We point out anything nearby that is likely to cause the next leak."]
+      ],
+      "includes": [
+        "Hidden and slow leak investigation",
+        "Pipe repair and section replacement",
+        "Corroded or failing pipe replacement",
+        "Frozen and burst pipe repair",
+        "Shut-off valve replacement",
+        "Outdoor faucet and exterior pipe repair"
+      ],
+      "faq": [
+        ["How can I check for a hidden leak myself?", "Turn off every fixture and appliance that uses water, then look at your water meter. If the meter keeps moving, water is going somewhere. Call us and we'll help find it."],
+        ["Is a small leak an emergency?", "A slow drip is rarely an emergency, but it shouldn't wait long. Water inside walls and floors causes rot and mold over time. An active, spreading leak is an emergency: shut off the water and call."],
+        ["Do I need to replace all my pipes?", "Not always. Many leaks only need a section repaired. If your home has older piping that keeps failing, we'll explain the case for replacing more of it so you can decide."]
+      ],
+      "local": "Winters in Westchester put pressure on pipes in exterior walls, garages, crawl spaces and unheated basements. Many older homes around New Rochelle also still have aging supply lines. Both are common sources of the leaks we're called about.",
+      "related": ["emergency-plumbing", "plumbing", "water-heaters"]
+    },
+    {
+      "slug": "drain-sewer",
+      "group": "plumbing",
+      "nav": "Drain & sewer",
+      "metaTitle": "Drain & Sewer Repair in New Rochelle, NY | Team ASAP",
+      "metaDescription": "Slow and clogged drains, recurring backups and sewer line problems for homes in New Rochelle and nearby Westchester. Call Team ASAP or request a quote.",
+      "eyebrow": "Drains & sewer lines",
+      "h1": "Drain and sewer repair",
+      "intro": "A slow sink is an inconvenience. A drain that backs up into the basement is a problem that needs attention right away. We clear clogs, repair damaged drain lines and look for the reason a drain keeps clogging, so you aren't calling again next month.",
+      "image": "drain-lines-basement",
+      "illustration": false,
+      "imageAlt": "Drain and supply piping in a basement utility area",
+      "quoteKey": "repair",
+      "signs": [
+        "Sinks, tubs or showers that drain slowly",
+        "Gurgling sounds from drains or toilets",
+        "Several fixtures clogging at the same time",
+        "Water coming up through a floor drain or basement fixture",
+        "Sewage odors inside or outside the house",
+        "A clog that comes back soon after it's cleared"
+      ],
+      "approach": [
+        ["Find where the blockage is", "One slow fixture usually means a local clog. Several at once often points further down the line."],
+        ["Clear the line", "We clear the blockage and confirm the drain flows freely."],
+        ["Fix the cause", "If damaged or sagging pipe is causing repeat clogs, we explain the repair options."],
+        ["Leave it clean", "Drain work can be messy. We clean up the work area before we leave."]
+      ],
+      "includes": [
+        "Kitchen, bathroom and laundry drain clearing",
+        "Toilet clogs and toilet drain problems",
+        "Main drain and sewer line backups",
+        "Drain pipe repair and replacement",
+        "Basement and floor drain problems"
+      ],
+      "faq": [
+        ["Are chemical drain cleaners safe to use?", "We don't recommend them. They often don't clear the blockage fully and can be hard on older pipes. They also make the job more hazardous for whoever opens the drain next."],
+        ["Why do my drains keep clogging?", "Recurring clogs usually come from buildup further down the line, pipe that has sagged or cracked, or roots in an outdoor sewer line. Clearing the clog treats the symptom, so we look for the cause as well."],
+        ["Is a sewer backup an emergency?", "Yes. Stop using water in the house and call right away. Sewage backups are a health hazard and can damage floors and belongings quickly."]
+      ],
+      "local": "Many homes in New Rochelle and the surrounding towns are decades old, with original cast-iron or clay drain lines and mature trees near the sewer lateral. These are common reasons a drain that was cleared last year is slow again.",
+      "related": ["emergency-plumbing", "plumbing", "leak-detection-pipe-repair"]
+    },
+    {
+      "slug": "water-heaters",
+      "group": "plumbing",
+      "nav": "Water heaters",
+      "metaTitle": "Water Heater Repair & Replacement in New Rochelle, NY | Team ASAP",
+      "metaDescription": "Water heater repair and replacement for homes in New Rochelle and Westchester County. No hot water, leaks or a heater near the end of its life? Call Team ASAP.",
+      "eyebrow": "Hot water",
+      "h1": "Water heater repair and replacement",
+      "intro": "When the hot water stops, everything else in the house waits. We diagnose water heater problems, repair what can be repaired, and help you choose the right replacement when a heater has reached the end of its life.",
+      "image": "illus-water-heater",
+      "illustration": true,
+      "imageAlt": "Plumber connecting copper piping to a wall-mounted water heater",
+      "quoteKey": "water-heater",
+      "signs": [
+        "No hot water, or hot water that runs out quickly",
+        "Water pooling around the base of the heater",
+        "Rusty or discolored hot water",
+        "Popping or rumbling sounds from the tank",
+        "A pilot light that won't stay lit",
+        "A heater that is more than 10 to 12 years old"
+      ],
+      "approach": [
+        ["Diagnose the problem", "We check the heater, its connections and venting to find out why it isn't working."],
+        ["Repair or replace", "We tell you whether a repair makes sense or whether replacement is the better value."],
+        ["Install it properly", "Replacements are installed with the right connections, valves and venting for your home."],
+        ["Test and explain", "We test the system and show you the shut-off and the settings."]
+      ],
+      "includes": [
+        "Water heater diagnosis and repair",
+        "Water heater replacement",
+        "Leaking tank and connection repair",
+        "Relief valve and shut-off valve replacement",
+        "Advice on tank versus tankless options"
+      ],
+      "faq": [
+        ["How long do water heaters last?", "Tank water heaters commonly last around 8 to 12 years, depending on water quality and maintenance. If yours is in that range and having problems, replacement is often the better long-term choice."],
+        ["Should I switch to a tankless water heater?", "It depends on your household's hot water use, your gas or electric service and the space available. We'll talk through the trade-offs for your home."],
+        ["My water heater is leaking. What should I do?", "Turn off the cold water supply to the heater and shut off its power or gas if you can do so safely. Then call us. A leaking tank usually can't be repaired and should be replaced."]
+      ],
+      "local": "Westchester's cold winters mean incoming water is colder for much of the year, so water heaters work harder here. A heater that kept up in summer may struggle in January.",
+      "related": ["plumbing", "leak-detection-pipe-repair", "emergency-plumbing"]
+    },
+    {
+      "slug": "fixtures-installation",
+      "group": "plumbing",
+      "nav": "Fixtures & installation",
+      "metaTitle": "Faucet, Toilet & Shower Installation in New Rochelle, NY | Team ASAP",
+      "metaDescription": "Faucet, toilet, shower, tub and garbage disposal repair and installation for homes in New Rochelle and nearby Westchester. See our work and request a quote.",
+      "eyebrow": "Fixtures",
+      "h1": "Faucet, toilet and shower installation",
+      "intro": "New fixtures change how a kitchen or bathroom looks and works every day. We install and repair faucets, toilets, shower valves and trim, tubs and garbage disposals, with careful work on the parts you see and the plumbing behind them.",
+      "image": "shower-valve-handheld",
+      "illustration": false,
+      "imageAlt": "Chrome shower valve trim and handheld shower on white tile with a green mosaic band",
+      "quoteKey": "installation",
+      "signs": [
+        "A faucet that drips, leaks at the base or is hard to turn",
+        "A toilet that runs, rocks, or leaks at the floor",
+        "A shower that won't hold temperature",
+        "Dated fixtures you'd like to replace",
+        "A garbage disposal that hums, jams or leaks",
+        "Low flow from a showerhead or faucet"
+      ],
+      "approach": [
+        ["Choose the fixture", "Already bought one? We'll install it. Still deciding? We can tell you what will work with your existing plumbing."],
+        ["Check what's behind it", "We check valves, supply lines and drains so the new fixture isn't connected to a failing part."],
+        ["Install with care", "We fit and seal everything neatly, so the finished work looks right and stays dry."],
+        ["Test everything", "We run the fixture, check for leaks and show you how it works."]
+      ],
+      "includes": [
+        "Kitchen and bathroom faucets",
+        "Toilet repair and replacement",
+        "Shower valves, trim and handheld showers",
+        "Bathtub plumbing",
+        "Vanity and sink installation",
+        "Garbage disposal installation and repair",
+        "Dishwasher and appliance water connections"
+      ],
+      "faq": [
+        ["Can I buy my own fixtures?", "Yes. Let us know the make and model when you request a quote, and we'll confirm it will work with your plumbing."],
+        ["Why does my shower get too hot or too cold?", "Often it's a worn cartridge or an older valve that doesn't balance pressure. Replacing the cartridge or valve usually fixes it."],
+        ["Do you install vanities and sinks too?", "Yes. We install vanities, tops and sinks along with the faucet and drain connections."]
+      ],
+      "local": "Many homes around New Rochelle still have original bathroom and kitchen valves behind the trim. When we replace a fixture, we check that older valve as well so a new faucet or shower isn't connected to a part that's about to fail.",
+      "related": ["bathroom-remodeling", "plumbing", "home-improvements"]
+    },
+    {
+      "slug": "emergency-plumbing",
+      "group": "emergency",
+      "nav": "Emergency plumbing",
+      "metaTitle": "Emergency Plumber in New Rochelle, NY | Burst Pipes, Leaks & Backups | Team ASAP",
+      "metaDescription": "Burst pipe, active leak or sewer backup in New Rochelle or nearby Westchester? Call Team ASAP for emergency plumbing help.",
+      "eyebrow": "Emergency plumbing",
+      "h1": "Emergency plumbing help in New Rochelle",
+      "intro": "Water where it shouldn't be needs attention right away. If you have a burst pipe, an active leak or a sewer backup, call us now. Calling is the fastest way to reach us in an emergency.",
+      "image": "illus-under-sink",
+      "illustration": true,
+      "imageAlt": "Plumber working on drain piping under a kitchen sink",
+      "quoteKey": "emergency",
+      "emergency": true,
+      "signs": [
+        "A burst or split pipe",
+        "Water coming through a ceiling or light fixture",
+        "An active leak you can't stop",
+        "Sewage backing up into drains, tubs or toilets",
+        "A leaking water heater",
+        "No water in the house"
+      ],
+      "firstSteps": [
+        ["Shut off the water", "Close the main shut-off valve. It's usually where the water line enters the house, often in the basement near the meter."],
+        ["Turn off power near water", "If water is near outlets, appliances or a light fixture, turn off power to that area at the breaker if it's safe to reach."],
+        ["Stop using drains", "If sewage is backing up, stop running water and don't flush toilets."],
+        ["Call Team ASAP", "Tell us what's happening and where. Photos help if it's safe to take them."]
+      ],
+      "approach": [
+        ["Call us", "Tell us what's happening and where. We'll tell you what to do while you wait."],
+        ["Stop the damage", "Our first job is to stop the water and make the area safe."],
+        ["Explain the repair", "Once things are under control, we explain what failed and how to fix it."],
+        ["Complete the repair", "We repair it properly, the same day or at a scheduled follow-up, depending on the job."]
+      ],
+      "includes": [
+        "Burst and frozen pipes",
+        "Active water leaks",
+        "Sewer and main drain backups",
+        "Overflowing toilets that won't stop",
+        "Leaking water heaters",
+        "Failed shut-off valves"
+      ],
+      "faq": [
+        ["Where is my main water shut-off?", "In most homes it's where the water line enters the house, often in the basement near the water meter. Find it now, before you need it, and make sure it turns."],
+        ["Should I fill out the form or call?", "For an emergency, call. The quote form is for planned work and non-urgent repairs."],
+        ["What if a pipe froze but hasn't burst?", "Turn off the water to that line if you can, open the faucet it feeds, and warm the area gently. Never use an open flame. Call us if you can't find the frozen section or if it has split."]
+      ],
+      "local": "In Westchester, emergency calls rise when temperatures drop well below freezing, when heavy rain overwhelms drains, and around holidays when drains and guest bathrooms see heavy use.",
+      "related": ["leak-detection-pipe-repair", "drain-sewer", "water-heaters"]
+    },
+    {
+      "slug": "home-improvements",
+      "group": "improvements",
+      "hub": true,
+      "nav": "Home improvements",
+      "metaTitle": "Bathroom Remodeling & Home Improvements in New Rochelle, NY | Team ASAP",
+      "metaDescription": "Bathroom remodeling, fixture upgrades and home improvement projects for homes in New Rochelle and Westchester County, from a team that knows plumbing.",
+      "eyebrow": "Home improvements",
+      "h1": "Home improvements built on solid plumbing",
+      "intro": "Bathrooms and kitchens are where plumbing and finish work meet. Because Team ASAP started in plumbing, we pay as much attention to the valves and drains behind the wall as to the tile and fixtures in front of it.",
+      "image": "shower-bronze-subway",
+      "illustration": false,
+      "imageAlt": "Bronze shower head, valve and handheld shower on white subway tile",
+      "quoteKey": "bathroom",
+      "signs": [
+        "A dated bathroom you'd like to update",
+        "A tub you'd like to replace with a walk-in shower",
+        "Worn or mismatched fixtures and hardware",
+        "A vanity that no longer fits how you use the room",
+        "Kitchen appliances or fixtures to replace"
+      ],
+      "approach": [
+        ["Talk through the project", "Tell us what you want to change. Photos of the current space help."],
+        ["Plan the work", "We walk through the space, discuss materials and fixtures, and outline the scope."],
+        ["Build it right", "Plumbing first, then finish work, with attention to the details you'll see every day."],
+        ["Walk through together", "We review the finished work with you before we call it done."]
+      ],
+      "includes": [
+        "Bathroom remodeling",
+        "Shower systems and fixture upgrades",
+        "Vanity, sink and faucet replacement",
+        "Kitchen fixture and appliance installation",
+        "Other improvement projects: ask us"
+      ],
+      "faq": [
+        ["Can you work with fixtures I've already chosen?", "Yes. Send us the product details with your quote request and we'll plan around them."],
+        ["How long does a bathroom remodel take?", "It depends on the scope. A fixture and vanity update is very different from a full gut renovation. We'll give you a realistic timeline once we've seen the space."],
+        ["Can I see examples of your work?", "Yes. Visit Our Work to see bathroom and fixture projects completed by Team ASAP."]
+      ],
+      "local": "Many homes around New Rochelle have original bathrooms with older valves and drains. Opening a wall for a remodel is the right moment to replace them, and we plan for that from the start.",
+      "related": ["bathroom-remodeling", "fixtures-installation", "plumbing"]
+    },
+    {
+      "slug": "bathroom-remodeling",
+      "group": "improvements",
+      "nav": "Bathroom remodeling",
+      "metaTitle": "Bathroom Remodeling in New Rochelle, NY | Team ASAP",
+      "metaDescription": "Bathroom remodeling in New Rochelle and Westchester: showers, vanities, fixtures and the plumbing behind them. See real Team ASAP projects and request a quote.",
+      "eyebrow": "Bathroom remodeling",
+      "h1": "Bathroom remodeling in New Rochelle",
+      "intro": "A bathroom remodel is only as good as the plumbing behind the tile. We build bathrooms that look finished and considered, with valves, drains and supply lines that are done right before the walls close up.",
+      "image": "shower-matte-black-1",
+      "illustration": false,
+      "imageAlt": "Matte-black shower controls, body jets and handheld shower on large white tile",
+      "quoteKey": "bathroom",
+      "gallery": ["shower-matte-black-2", "vanity-black-marble", "shower-bronze-subway"],
+      "signs": [
+        "Cracked or dated tile and fixtures",
+        "A shower that never feels quite right",
+        "Not enough storage or counter space",
+        "Signs of water damage around the tub or toilet",
+        "Plans to sell, or to stay and enjoy the home for years"
+      ],
+      "approach": [
+        ["Start with how you use the room", "We discuss what works, what doesn't and the look you're after."],
+        ["Plan plumbing and layout", "Fixture placement, valve type and drain locations are set before demolition."],
+        ["Rough-in done right", "Valves and lines are installed and tested before tile goes up."],
+        ["Finish with care", "Fixtures, trim and hardware are set straight, sealed and cleaned."]
+      ],
+      "includes": [
+        "Shower systems, including body jets and handheld showers",
+        "Tub replacement and tub-to-shower conversions",
+        "Vanities, tops, sinks and faucets",
+        "Toilet replacement",
+        "Valve and supply line upgrades during renovation",
+        "Recessed niches and fixture layout planning"
+      ],
+      "faq": [
+        ["Can you add body jets or a handheld shower?", "Yes. Our Work includes a shower with four body jets and a handheld shower. These need the right valve and supply sizing, which we plan for during the rough-in."],
+        ["Do you handle the whole remodel or just the plumbing?", "Tell us the scope you have in mind. We'll be clear about what we handle and plan the project with you."],
+        ["How should I prepare for a quote?", "Take a few photos of the current bathroom and, if you have them, links or photos of fixtures you like. Attach them to the quote request."]
+      ],
+      "local": "Bathrooms in older New Rochelle homes are often small, with plumbing in fixed locations. Good planning makes the most of the space without moving drains unnecessarily, which keeps the project simpler.",
+      "related": ["home-improvements", "fixtures-installation", "plumbing"]
+    }
+  ]
+}

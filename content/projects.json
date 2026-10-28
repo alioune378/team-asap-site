@@ -1,0 +1,121 @@
+{
+  "_readme": "Portfolio entries. To add a project: put photos in assets/img/, add an entry below, set \"published\": true, run python3 build.py. Categories: bathrooms, plumbing, fixtures, interiors. Never add a project that Team ASAP did not do.",
+  "categories": {
+    "bathrooms": "Bathrooms",
+    "plumbing": "Plumbing repairs",
+    "fixtures": "Fixtures & installations",
+    "interiors": "Flooring & interiors"
+  },
+  "projects": [
+    {
+      "id": "matte-black-shower",
+      "title": "Matte-black shower with body jets",
+      "category": "bathrooms",
+      "photos": ["shower-matte-black-1", "shower-matte-black-2"],
+      "description": "Matte-black shower controls, four wall-mounted body jets, a handheld shower and a recessed tile niche set into large-format white tile.",
+      "location": "",
+      "featured": true,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "bronze-shower",
+      "title": "Bronze shower fixtures on subway tile",
+      "category": "bathrooms",
+      "photos": ["shower-bronze-subway"],
+      "description": "A large shower head on a wall arm, a handheld shower on a slide bar and a single-handle valve in a bronze finish, set against white subway tile.",
+      "location": "",
+      "featured": true,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "black-vanity",
+      "title": "Black vanity with marble top",
+      "category": "bathrooms",
+      "photos": ["vanity-black-marble"],
+      "description": "A two-door black vanity with a marble top, an oval sink and a matte-black widespread faucet.",
+      "location": "",
+      "featured": true,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "chrome-shower-valve",
+      "title": "Chrome valve and handheld shower",
+      "category": "fixtures",
+      "photos": ["shower-valve-handheld", "shower-valve-trim"],
+      "description": "Single-handle chrome valve trim, a handheld shower and a wall supply elbow on white tile with a green glass mosaic band.",
+      "location": "",
+      "featured": true,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "shower-valve-rough-in",
+      "title": "Shower valve rough-in",
+      "category": "plumbing",
+      "photos": ["shower-valve-rough-in"],
+      "description": "A shower valve set in a fresh mortar bed, ready for tile. Work in progress.",
+      "location": "",
+      "featured": false,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "kitchen-range-dishwasher",
+      "title": "Kitchen range and dishwasher",
+      "category": "fixtures",
+      "photos": ["kitchen-range-dishwasher"],
+      "description": "A stainless steel range and dishwasher fitted into an existing run of kitchen cabinets.",
+      "location": "",
+      "featured": false,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "hardwood-living-room",
+      "title": "Hardwood floors, living room",
+      "category": "interiors",
+      "photos": ["hardwood-living-room"],
+      "description": "A living room with finished hardwood floors, a fireplace and built-in shelving.",
+      "location": "",
+      "featured": false,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "basement-drain-lines",
+      "title": "Basement drain lines",
+      "category": "plumbing",
+      "photos": ["drain-lines-basement"],
+      "description": "Drain and supply piping in a basement utility area.",
+      "location": "",
+      "featured": false,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "gas-line-valve",
+      "title": "Gas piping and shut-off valve",
+      "category": "plumbing",
+      "photos": ["gas-line-valve"],
+      "description": "Black iron gas piping with a lever-handle shut-off valve.",
+      "location": "",
+      "featured": false,
+      "published": true,
+      "verified": false
+    },
+    {
+      "id": "toilet-flange",
+      "title": "Toilet flange and seal work",
+      "category": "plumbing",
+      "photos": ["toilet-flange"],
+      "description": "Toilet removed to work on the closet flange and seal. Work in progress.",
+      "location": "",
+      "featured": false,
+      "published": true,
+      "verified": false
+    }
+  ]
+}

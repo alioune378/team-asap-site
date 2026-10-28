@@ -1,0 +1,52 @@
+{
+  "_readme": "Central business configuration. Every item with \"verified\": false must be confirmed by the owner before launch. Edit here, then run: python3 build.py",
+
+  "siteUrl": "https://team-asap.netlify.app",
+  "legalName": "Team ASAP Home Improvement LLC",
+  "brandName": "Team ASAP",
+  "alsoKnownAs": "ASAP Plumbing & Home Improvement",
+  "tagline": "Plumbing done right. Homes made better.",
+
+  "phone": { "display": "(917) 633-2968", "e164": "+19176332968", "verified": false, "note": "From Google Business Profile screenshot" },
+  "email": { "value": "", "verified": false, "note": "Owner to supply a business email for quote notifications" },
+  "city": "New Rochelle",
+  "region": "NY",
+  "streetAddress": "",
+
+  "owner": { "name": "Libasse Samba Jr.", "title": "Owner", "verified": false, "note": "Confirm the public-facing name and spelling" },
+
+  "trust": [
+    { "value": "5.0", "label": "Google rating", "verified": false, "note": "From Google screenshot, re-check before launch" },
+    { "value": "325", "label": "Google reviews", "verified": false, "note": "From Google screenshot, re-check before launch" },
+    { "value": "17+", "label": "Years in business", "verified": false, "note": "From Google screenshot" },
+    { "value": "24/7", "label": "Emergency service", "verified": false, "note": "Confirm true 24/7 availability" },
+    { "value": "Local", "label": "Owner-led & operated", "verified": false, "note": "Confirm wording" }
+  ],
+
+  "googleRating": { "rating": "5.0", "count": "325", "verified": false },
+  "googleReviewsUrl": "",
+  "emergency247": true,
+  "freeEstimates": false,
+
+  "serviceAreas": [
+    { "name": "New Rochelle", "primary": true, "verified": true },
+    { "name": "Larchmont", "verified": false },
+    { "name": "Mamaroneck", "verified": false },
+    { "name": "Pelham", "verified": false },
+    { "name": "Mount Vernon", "verified": false },
+    { "name": "Eastchester", "verified": false },
+    { "name": "Tuckahoe", "verified": false },
+    { "name": "Bronxville", "verified": false },
+    { "name": "Scarsdale", "verified": false },
+    { "name": "White Plains", "verified": false },
+    { "name": "Rye", "verified": false },
+    { "name": "Yonkers", "verified": false }
+  ],
+
+  "analytics": { "ga4Id": "", "note": "Paste a GA4 measurement ID (G-XXXXXXX) to enable analytics with a consent banner" },
+
+  "reviewMode": true,
+  "_reviewModeNote": "true shows the 'Owner review' button that highlights unconfirmed details. Set to false for launch.",
+
+  "credit": { "name": "Dalal Technologies", "url": "" }
+}
