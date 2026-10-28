@@ -432,3 +432,22 @@ body.review .review-note{display:block;position:fixed;left:max(16px,env(safe-are
   .review-toggle{position:static;display:flex;width:100%;justify-content:center;border-radius:0;border-width:0 0 1px;box-shadow:none;padding:9px 16px;font-size:.82rem;opacity:1}
   body.review .review-note{position:static;max-width:none;border-radius:0;border-width:0 0 1px;box-shadow:none}
 }
+/* v2: mobile hero photos first, owner feature, slimmer sticky bar */
+@media (max-width:900px){
+  .hero .wrap{padding-block:20px 44px;gap:24px}
+  .collage{order:-1;grid-template-columns:1.3fr 1fr 1fr;grid-template-rows:auto;gap:8px}
+  .collage .c1,.collage .c2,.collage .c3{grid-row:auto;aspect-ratio:3/4}
+  .collage figure{border-radius:14px}
+  .collage .tag{display:none}
+}
+.owner-feature{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,72px);align-items:center}
+@media (max-width:860px){.owner-feature{grid-template-columns:1fr}}
+.owner-feature .owner-card{grid-template-columns:auto 1fr}
+.owner-feature .mono{width:120px;height:120px;font-size:2.4rem}
+@media (max-width:860px){
+  .mbar{padding-top:8px;padding-bottom:calc(8px + env(safe-area-inset-bottom,0px))}
+  .mbar .btn{min-height:44px;font-size:.95rem}
+  body{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:900px){.collage{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:860px){.owner-feature .mono{width:80px;height:80px;font-size:1.7rem}.owner-feature .owner-card{padding:22px;gap:18px}}

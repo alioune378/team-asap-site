@@ -313,6 +313,13 @@ def build_home():
 </div></div>
 </div></section>
 
+<section class="section" aria-labelledby="own-h"><div class="wrap owner-feature">
+<div class="owner-card"{v(SITE["owner"])}><div class="mono" data-verify="Add a real photo of the owner here">{e("".join(w[0] for w in SITE["owner"]["name"].replace(".", "").split()[:2]))}</div><div><h3>{e(SITE["owner"]["name"])}</h3><p>{e(SITE["owner"]["title"])}, Team ASAP Home Improvement</p></div></div>
+<div style="display:grid;gap:16px"><span class="eyebrow">Meet the owner</span><h2 id="own-h">The professional behind Team ASAP</h2>
+<p class="lead">Team ASAP is owner-led. When you call, you're working with a local business whose owner is personally accountable for every job, from a quick repair to a full bathroom renovation.</p>
+<div><a class="link-arrow" href="{href('about')}">More about Team ASAP {ic('arrow')}</a></div></div>
+</div></section>
+
 <section class="section" aria-labelledby="work-h"><div class="wrap">
 <div class="sec-head split"><div style="display:grid;gap:14px"><span class="eyebrow">Our work</span><h2 id="work-h">Real projects by Team ASAP</h2></div><a class="link-arrow" href="{href('our-work')}">See all projects {ic('arrow')}</a></div>
 <div class="work-grid">{''.join(project_card(p) for p in feat)}</div>
