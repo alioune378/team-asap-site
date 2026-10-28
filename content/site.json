@@ -1,7 +1,7 @@
 {
   "_readme": "Central business configuration. Every item with \"verified\": false must be confirmed by the owner before launch. Edit here, then run: python3 build.py",
 
-  "siteUrl": "https://team-asap.netlify.app",
+  "siteUrl": "https://team-asap-site.netlify.app",
   "legalName": "Team ASAP Home Improvement LLC",
   "brandName": "Team ASAP",
   "alsoKnownAs": "ASAP Plumbing & Home Improvement",

@@ -418,3 +418,4 @@ body.review .review-note{display:block;position:fixed;left:max(16px,env(safe-are
 .rating > *{min-width:0}
 .nav > a,.nav .dd > button{white-space:nowrap}
 @media (max-width:400px){.btn{white-space:normal;text-align:center;line-height:1.2}.rating{padding:22px}}
+@media (max-width:620px){.svc.urgent .ph{aspect-ratio:auto;height:96px;justify-content:flex-start;padding-left:22px}.svc.urgent .ph svg{width:48px;height:48px}}
